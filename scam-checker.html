@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Scam Checker</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="scam-checker.html">Scam Checker</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="scam-checker" class="box">
+            <h2>Is This a Scam?</h2>
+            <textarea id="message" rows="5" placeholder="Paste email or message here..."></textarea><br>
+            <button type="button" onclick="checkScam()">Check for Scam</button>
+            <div id="scam-result"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
